@@ -1,0 +1,9 @@
+name: LJM
+version: '1.0'
+main: com.AtLaN.lJM.JoinLeaveMessages
+api-version: '1.21'
+commands:
+  ljmreload:
+    description: Перезагрузить конфигурацию плагина
+    usage: /ljmreload
+    permission: ljm.reload
